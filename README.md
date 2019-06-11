@@ -8,3 +8,10 @@
 npm install ajv
 npm install --save-dev enzyme enzyme-adapter-react-16
 ```
+
+- O enzyme precisa ser configurado para ser executado no React 16 através do EnzymeAdapter, para isso, usamos o código abaixo:
+  js
+
+```
+Enzyme.configure({ adapter: new EnzymeAdapter() });
+```
