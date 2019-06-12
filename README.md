@@ -23,7 +23,6 @@ Enzyme.configure({ adapter: new EnzymeAdapter() });
 - `mount`: renderiza o component que foi selecionado e seus filhos.
 
 - Quando um componente é renderizado pelo enzyme, ele retorna algo diferente de `undefined` ou `null`. Para verificar se algo é verdadeiro, se usa a função do jest `.toBeTruthy()`.
-  ]
 
 - Tipos de testes:
   - Teste unitário: Testa partes específicas do código, como funções e outros.
